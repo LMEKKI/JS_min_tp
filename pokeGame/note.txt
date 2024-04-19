@@ -1,0 +1,23 @@
+chaque appuye sur un bouton 
+
+le pokemon doit lancer une attaque
+
+une animation doit se jouer
+
+a la fin de l'animation on change la vie du pokemon qui subit l'attaque 
+
+et l,IA doit attaquer aleatoirement une des attaque
+
+une animation sera lancer  et enelver le pourcentage de vie 
+
+chaque 2 tour le bouton attaque speciale sera possible  
+
+l'ia attaquera automatiquement avec l'attaque spéciale
+
+le joueur ne choisie pas son personnage ou peut etre si 
+
+une fois que la vie du joueur ou de ia sera a < ou = 0 
+
+une alert sera lancer avec game over ou you win 
+
+le joueur a le choix soit de relancer la partie 
