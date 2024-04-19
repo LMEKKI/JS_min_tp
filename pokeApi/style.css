@@ -5,13 +5,22 @@ body {
 }
 .container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: column;
-  width: fit-content;
   border: 1px solid red;
+  text-align: center;
 }
 
-li {
-  list-style: none;
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 500px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
