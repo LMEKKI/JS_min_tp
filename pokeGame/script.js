@@ -12,20 +12,25 @@ const fetchPokemon = async function () {
     for (let index = 0; index < 2; index++) {
       LsPokemon.push(pokemon[index]);
     }
-    const playerName = document.createTextNode(LsPokemon[0].name);
+    const playerTextName = document.createTextNode(LsPokemon[0].name);
     const playerimg = document.createElement("img");
+    const playerName = document.createElement("p");
     console.log(LsPokemon);
     playerimg.src = LsPokemon[0].image;
+    playerName.appendChild(playerTextName);
     divPlayer.appendChild(playerimg);
     divPlayer.appendChild(playerName);
     // enemy
-    const enemyName = document.createTextNode(LsPokemon[1].name);
+    const enemytextName = document.createTextNode(LsPokemon[1].name);
     const enemyimg = document.createElement("img");
+    const enemyName = document.createElement("p");
     console.log(LsPokemon);
     enemyimg.src = LsPokemon[1].image;
+    enemyName.appendChild(enemytextName);
     divEnemy.appendChild(enemyimg);
     divEnemy.appendChild(enemyName);
   }
+
   launchGame();
 };
 
