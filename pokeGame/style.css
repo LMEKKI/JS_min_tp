@@ -16,3 +16,15 @@
   text-align: center;
   color: blueviolet;
 }
+
+.hideBtn {
+  visibility: hidden;
+}
+
+.activeBtn {
+  visibility: visible;
+}
+
+.red {
+  background-color: brown;
+}
